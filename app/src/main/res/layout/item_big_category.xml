@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<ImageView
+    android:layout_width="@dimen/_120sdp"
+    android:layout_height="@dimen/_120sdp"
+    android:src="@mipmap/ic_launcher"
+    android:layout_margin="@dimen/_15sdp"
+    android:id="@+id/iv_big_categories"
+    />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/te_category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:gravity="center"
+        android:text="category name"
+        android:textSize="@dimen/_15sdp"
+
+        />
+    <ImageView
+        android:layout_marginTop="@dimen/_60sdp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        android:layout_marginStart="@dimen/_25sdp"
+        />
+
+</LinearLayout>

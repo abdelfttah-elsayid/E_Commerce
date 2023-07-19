@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.fragments.CategoriesFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:listitem="@layout/item_big_category"
+      app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+      app:spanCount="2"
+      android:id="@+id/rv_big_categories"
+      />
+
+</LinearLayout>
